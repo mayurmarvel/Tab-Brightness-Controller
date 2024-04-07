@@ -24,7 +24,7 @@ function App() {
         const normalizedBrightness = brightness / 100;
         document.documentElement.style.filter = `brightness(${normalizedBrightness})`;
         chrome.storage.local.set({ [`brightness_${tabId}`]: normalizedBrightness }).then(() => {
-          console.log("Value is set");
+          // console.log("Value is set");
         });
       },
       args: [value, tab.id]
