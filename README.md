@@ -3,6 +3,14 @@
 ### Adjust brightness for each Chrome tab!
 This extension works on all Chromium-based browsers such as **Opera, Edge, Brave**, etc.
 
+## Usage
+
+- Clone the Repo.
+- Go to Chrome Extension settings and enable developer mode.
+- Choose `Load unpacked` and select the `dist` folder in this repo.
+- Enjoy using the plugin.
+
+Chrome requires $5 for registering and uploading this extension, so I can't publish it on the Chrome Web Store. **You can use it for free** by following the above mentioned steps.  
 ## Project Setup
 
 - This extension is built using Vite + React + Shadcn/ui.
