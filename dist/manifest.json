@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Brightness Controller",
+    "version": "0.1.0",
+    "description": "Adjust brightness for each Chrome tab!",
+    "action": {
+      "default_popup": "index.html"
+    },
+    "permissions": ["scripting", "storage", "tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["http://*/*", "https://*/*"],
+    "icons": {
+      "16": "logo.png",  
+      "48": "logo.png", 
+      "128": "logo.png"  
+    }
+  }
+  
